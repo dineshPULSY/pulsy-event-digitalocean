@@ -2,7 +2,7 @@
 
 Deploy [Hi.Events](https://github.com/HiEventsDev/hi.events) with one click on DigitalOcean.
 
-[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/amirukim/pulsy-event-digitalocean)
+[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/amirukim/pulsy-event-digitalocean/tree/main)
 
 ## 🚀 How to Use
 
