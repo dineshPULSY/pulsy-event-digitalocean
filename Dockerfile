@@ -1,4 +1,4 @@
-FROM amirukim/hi-events-all-in-one:latest
+FROM amirukim/hi-events-all-in-one-custom
 
 COPY digitalocean-start.sh /digitalocean-start.sh
 RUN chmod +x /digitalocean-start.sh
