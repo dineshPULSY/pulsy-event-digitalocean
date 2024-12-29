@@ -1,11 +1,11 @@
 spec:
-  name: hi-events
+  name: hi-events-pulsy
   services:
-    - name: hi-events
+    - name: hi-events-pulsy
       dockerfile_path: Dockerfile
       http_port: 80
       git:
-        repo_clone_url: https://github.com/amirukim/pulsy-event-digitalocean.git
+        repo_clone_url: https://github.com/dineshPULSY/pulsy-event-digitalocean.git
         branch: main
       envs:
         - key: APP_KEY
@@ -47,6 +47,6 @@ spec:
           value: local
         - key: APP_SAAS_MODE_ENABLED
           scope: RUN_TIME
-          value: 'false'
+          value: 'true'
   databases:
-    - name: hi-events-db
+    - name: hi-events-db-pulsy
